@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Margo Script';
-  src: url('/assets/fonts/margo-script-regular-webfont.woff2');
+  src: url('../assets/fonts/margo-script-regular-webfont.woff2');
 }
 
 @font-face {
   font-family: Jost;
-  src: url('/assets/fonts/jost.woff');
+  src: url('../assets/fonts/jost.woff');
 }
 
 html,
