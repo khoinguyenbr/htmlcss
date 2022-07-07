@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Học HTML, CSS không khó</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Học HTML, CSS không khó</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
       <div class="left-nav">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">HTML Courses</a></li>
-          <li><a href="#">CSS Courses</a></li>
+          <li><a href="#">HTML session</a></li>
+          <li><a href="#">CSS session</a></li>
         </ul>
       </div>
-      <div class="logo">FLean</div>
       <div class="right-nav">
         <ul>
           <li><a href="#">About</a></li>
@@ -22,23 +26,30 @@
           <li><a href="#">Search</a></li>
         </ul>
       </div>
-    </header>
+      <div class="logo">FLean</div>
+      <div class="clear"></div>
+    </div>
+  </header>
 
-    <!-- Main content -->
-    <main>
-      <section class="hero-section">
-        <div class="content">
+  <!-- Main content -->
+  <main>
+    <section class="hero-section">
+      <div class="content">
+        <div class="inner-box">
           <h3 class="welcome">Hey friend</h3>
-          <h1>Let's launch your day dream</h1>
+          <h1 class="heading">Let's launch your day dream</h1>
           <p>
             Soon, when all is well, you’re going to look back on this period of
             your life and be so glad that you never gave up.
           </p>
+          <button>Learn more</button>
         </div>
-        <div class="hero-image">
-          <img class="image" src="./assets/images/Home1.jpg" alt="" />
-        </div>
-      </section>
-    </main>
-  </body>
+      </div>
+      <div class="hero-image">
+        <img class="image" src="./assets/images/Home1.jpg" alt="" />
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
